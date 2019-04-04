@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/DXPivotGrid_SortBySummary/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_SortBySummary/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/DXPivotGrid_SortBySummary/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DXPivotGrid_SortBySummary/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DXPivotGrid_SortBySummary/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DXPivotGrid_SortBySummary/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to sort data by a particular column or row

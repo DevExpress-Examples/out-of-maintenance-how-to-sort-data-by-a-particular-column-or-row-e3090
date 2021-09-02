@@ -1,14 +1,13 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports DevExpress.Xpf.PivotGrid
 
 Namespace DXPivotGrid_SortBySummary
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
-			pivotGridControl1.DataSource = _
-				(New nwindDataSetTableAdapters.SalesPersonTableAdapter()).GetData()
+			pivotGridControl1.DataSource = (New nwindDataSetTableAdapters.SalesPersonTableAdapter()).GetData()
 		End Sub
 		Private Sub pivotGridControl1_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
 

@@ -22,8 +22,8 @@ Namespace DXPivotGrid_SortBySummary
 				fieldProductName.SortByField = fieldUnitPrice
 
 				' Specifies a column by which the Product Name field values should be sorted.
-				fieldProductName.SortByConditions.Add(New SortByCondition(fieldYear, "1994"))
-				fieldProductName.SortByConditions.Add(New SortByCondition(fieldMonth, "9"))
+				fieldProductName.SortByConditions.Add(New SortByCondition(fieldYear, 1994))
+				fieldProductName.SortByConditions.Add(New SortByCondition(fieldMonth, 9))
 			Finally
 
 				' Unlocks the pivot grid and applies changes.
